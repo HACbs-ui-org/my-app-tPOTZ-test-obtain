@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-itos
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-devfile-sample-itos
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:c86750754883102129717439c5ad0be5441b35c7c45cc12ef9e64243b8bc575a
         name: my-nodejs
         ports:
         - containerPort: 3001
