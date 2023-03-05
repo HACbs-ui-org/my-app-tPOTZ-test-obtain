@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-nxiq
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-devfile-sample-nxiq
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:87f80c88cd1278748ef56efbce78c5d4c32a1e714a39129d41e5c7d904c8c2f3
         name: my-nodejs
         ports:
         - containerPort: 3001
